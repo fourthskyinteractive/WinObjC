@@ -54,6 +54,8 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\Frameworks\Metal\MTLDeviceDX12.h" />
     <ClInclude Include="..\..\..\include\Metal\MTLBlitCommandEncoder.h" />
+    <ClInclude Include="..\..\..\include\Metal\MTLCommandBuffer.h" />
+    <ClInclude Include="..\..\..\include\Metal\MTLCommandQueue.h" />
     <ClInclude Include="..\..\..\include\Metal\MTLDevice.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

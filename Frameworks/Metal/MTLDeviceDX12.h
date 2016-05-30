@@ -18,6 +18,6 @@
 #import <Metal/MetalConstants.h>
 #import <Metal/MTLDevice.h>
 
-@interface MTLDeviceDX12 <MTLDevice>
+@interface MTLDeviceDX12 : NSObject<MTLDevice>
 
 @end
