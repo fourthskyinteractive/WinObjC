@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|ARM">
@@ -49,6 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Frameworks\QuartzCore\CAEAGLLayer.h" />
+    <ClInclude Include="..\..\..\Frameworks\QuartzCore\CAEAGLLayerInternal.h" />
+    <ClInclude Include="..\..\..\include\QuartzCore\CALayer.h" />
+    <ClInclude Include="..\..\..\include\QuartzCore\CAMetalDrawable.h" />
+    <ClInclude Include="..\..\..\include\QuartzCore\CAMetalLayer.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A7C90816-B6F1-4E80-B1CC-C485DA18D770}</ProjectGuid>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|ARM">
@@ -27,6 +27,7 @@
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLComputePipelineDescriptor.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLComputePipelineReflection.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLDepthStencilDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLDeviceDX12.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLLibrary.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPassAttachmentDescriptor.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPassColorAttachmentDescriptor.mm" />
@@ -49,6 +50,11 @@
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLVertexBufferLayoutDescriptor.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLVertexBufferLayoutDescriptorArray.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLVertexDescriptor.mm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Frameworks\Metal\MTLDeviceDX12.h" />
+    <ClInclude Include="..\..\..\include\Metal\MTLBlitCommandEncoder.h" />
+    <ClInclude Include="..\..\..\include\Metal\MTLDevice.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7B48E9AD-B809-4919-B9EA-822A87C269BC}</ProjectGuid>

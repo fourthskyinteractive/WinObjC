@@ -15,22 +15,9 @@
 //******************************************************************************
 #pragma once
 
-#import <QuartzCore/CoreAnimationExport.h>
-#import <QuartzCore/CAMediaTiming.h>
-#import <QuartzCore/CALayer.h>
 #import <Metal/MetalConstants.h>
+#import <Metal/MTLDevice.h>
 
-@protocol MTLDevice;
-@protocol CAMetalDrawable;
-
-CA_EXPORT_CLASS
-@interface CAMetalLayer : CALayer <CAMediaTiming, NSCoding>
-
-@property (retain) id<MTLDevice> device STUB_PROPERTY;
-@property MTLPixelFormat pixelFormat STUB_PROPERTY;
-@property BOOL framebufferOnly STUB_PROPERTY;
-@property CGSize drawableSize STUB_PROPERTY;
-- (id<CAMetalDrawable>)nextDrawable /*STUB_METHOD*/;
-@property BOOL presentsWithTransaction STUB_PROPERTY;
+@interface MTLDeviceDX12 <MTLDevice>
 
 @end

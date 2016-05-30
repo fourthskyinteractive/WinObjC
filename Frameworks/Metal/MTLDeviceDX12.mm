@@ -1,3 +1,4 @@
+
 //******************************************************************************
 //
 // Copyright (c) 2016 Microsoft Corporation. All rights reserved.
@@ -13,24 +14,36 @@
 // THE SOFTWARE.
 //
 //******************************************************************************
-#pragma once
 
-#import <QuartzCore/CoreAnimationExport.h>
-#import <QuartzCore/CAMediaTiming.h>
-#import <QuartzCore/CALayer.h>
-#import <Metal/MetalConstants.h>
+#import <StubReturn.h>
+#import <Metal/MTLDevice.h>
+#import "MTLDeviceDX12.h"
 
-@protocol MTLDevice;
-@protocol CAMetalDrawable;
 
-CA_EXPORT_CLASS
-@interface CAMetalLayer : CALayer <CAMediaTiming, NSCoding>
+#include "UWP/WindowsUIXamlControls.h"
+#include "UWP/WindowsUIXamlMedia.h"
 
-@property (retain) id<MTLDevice> device STUB_PROPERTY;
-@property MTLPixelFormat pixelFormat STUB_PROPERTY;
-@property BOOL framebufferOnly STUB_PROPERTY;
-@property CGSize drawableSize STUB_PROPERTY;
-- (id<CAMetalDrawable>)nextDrawable /*STUB_METHOD*/;
-@property BOOL presentsWithTransaction STUB_PROPERTY;
+#include <COMIncludes.h>
+#include "Windows.ui.xaml.media.dxinterop.h"
+#include <dxgi1_4.h>
+#include <d3d12.h>
+#include <COMIncludes_End.h>
+
+@implementation MTLDeviceDX12 {
+	ID3D12Device* _device;
+}
+
+- (MTLSize) maxThreadsPerThreadgroup {
+	return StubReturn();
+}
+
+- (BOOL)supportsFeatureSet:(MTLFeatureSet)featureSet {
+	return NO;
+}
+
+- (BOOL)supportsTextureSampleCount:(NSUInteger)sampleCount {
+	return NO;
+}
+
 
 @end
