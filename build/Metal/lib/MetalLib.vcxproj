@@ -19,6 +19,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLBlitCommandEncoderDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLBufferDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLCommandBufferDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLCommandQueueDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLComputeCommandEncoderDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLComputePipelineStateDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLDepthStencilStateDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLDeviceDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLDrawableDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLFunctionDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLLibraryDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLParallelRenderCommandEncoderDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLRenderCommandEncoderDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLRenderPipelineStateDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLSamplerStateDX12.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLTextureDX12.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MetalFunctions.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLArgument.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLArrayType.mm" />
@@ -27,7 +43,6 @@
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLComputePipelineDescriptor.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLComputePipelineReflection.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLDepthStencilDescriptor.mm" />
-    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLDeviceDX12.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLLibrary.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPassAttachmentDescriptor.mm" />
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPassColorAttachmentDescriptor.mm" />
@@ -52,7 +67,22 @@
     <ClangCompile Include="..\..\..\Frameworks\Metal\MTLVertexDescriptor.mm" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Frameworks\Metal\MTLDeviceDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLBlitCommandEncoderDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLBufferDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLCommandBufferDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLCommandQueueDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLComputeCommandEncoderDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLComputePipelineStateDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLDepthStencilStateDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLDeviceDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLDrawableDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLFunctionDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLLibraryDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLParallelRenderCommandEncoderDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLRenderCommandEncoderDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLRenderPipelineStateDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLSamplerStateDX12.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLTextureDX12.h" />
     <ClInclude Include="..\..\..\include\Metal\MTLBlitCommandEncoder.h" />
     <ClInclude Include="..\..\..\include\Metal\MTLCommandBuffer.h" />
     <ClInclude Include="..\..\..\include\Metal\MTLCommandQueue.h" />

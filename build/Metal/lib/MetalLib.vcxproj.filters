@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\Metal\MTLBlitCommandEncoder.h" />
+    <ClInclude Include="..\..\..\include\Metal\MTLCommandBuffer.h" />
+    <ClInclude Include="..\..\..\include\Metal\MTLCommandQueue.h" />
+    <ClInclude Include="..\..\..\include\Metal\MTLDevice.h" />
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLBlitCommandEncoderDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLCommandBufferDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLCommandQueueDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLComputeCommandEncoderDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLComputePipelineStateDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLDeviceDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLRenderCommandEncoderDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLRenderPipelineStateDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLParallelRenderCommandEncoderDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLSamplerStateDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLDepthStencilStateDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLBufferDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLTextureDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLDrawableDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLLibraryDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Frameworks\Metal\d3d12\MTLFunctionDX12.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MetalFunctions.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLArgument.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLArrayType.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLCommandBuffer.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLCompileOptions.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLComputePipelineDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLComputePipelineReflection.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLDepthStencilDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLLibrary.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPassAttachmentDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPassColorAttachmentDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPassColorAttachmentDescriptorArray.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPassDepthAttachmentDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPassDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPassStencilAttachmentDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPipelineColorAttachmentDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPipelineColorAttachmentDescriptorArray.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPipelineDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLRenderPipelineReflection.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLSamplerDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLStencilDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLStructMember.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLStructType.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLTextureDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLVertexAttribute.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLVertexAttributeDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLVertexAttributeDescriptorArray.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLVertexBufferLayoutDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLVertexBufferLayoutDescriptorArray.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\MTLVertexDescriptor.mm" />
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLBlitCommandEncoderDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLCommandBufferDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLCommandQueueDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLComputeCommandEncoderDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLComputePipelineStateDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLDeviceDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLRenderCommandEncoderDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLRenderPipelineStateDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLParallelRenderCommandEncoderDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLSamplerStateDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLDepthStencilStateDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLBufferDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLTextureDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLDrawableDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLLibraryDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\..\Frameworks\Metal\d3d12\MTLFunctionDX12.mm">
+      <Filter>d3d12</Filter>
+    </ClangCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="d3d12">
+      <UniqueIdentifier>{bf781ee1-fa84-4ed5-b0b5-350202db8a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d11">
+      <UniqueIdentifier>{0d725460-84c2-4ec5-8788-c0726e13eb0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

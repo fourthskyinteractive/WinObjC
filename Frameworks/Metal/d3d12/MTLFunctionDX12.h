@@ -16,8 +16,10 @@
 #pragma once
 
 #import <Metal/MetalConstants.h>
-#import <Metal/MTLDevice.h>
+#import <Metal/MTLFunction.h>
 
-@interface MTLDeviceDX12 : NSObject<MTLDevice>
+@interface MTLFunctionDX12 : NSObject<MTLFunction>
+
+-(instancetype)init;
 
 @end

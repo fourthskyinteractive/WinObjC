@@ -16,9 +16,7 @@
 //******************************************************************************
 
 #import <StubReturn.h>
-#import <Metal/MTLDevice.h>
 #import "MTLDeviceDX12.h"
-
 
 #include "UWP/WindowsUIXamlControls.h"
 #include "UWP/WindowsUIXamlMedia.h"
@@ -31,6 +29,17 @@
 
 @implementation MTLDeviceDX12 {
 	ID3D12Device* _device;
+}
+
+-(instancetype)init {
+	
+	return self;
+}
+
+- (void)dealloc {
+	_device->Release();
+
+	[super dealloc];
 }
 
 - (MTLSize) maxThreadsPerThreadgroup {
@@ -176,10 +185,6 @@
                                                                error:(NSError* _Nullable*)error {
 	UNIMPLEMENTED();
     return StubReturn();
-}
-
-- (void)dealloc {
-	_device->Release();
 }
 
 @end
