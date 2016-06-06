@@ -32,6 +32,20 @@
 	IDXGISwapChain* _swapChain;
 }
 
+@synthesize framebufferOnly;
+
+- (id<MTLDevice>) device {
+	
+}
+
+- (MTLPixelFormat) pixelFormat {
+	
+}
+
+- (CGSize) drawableSize {
+	
+}
+
 /**
  @Status Interoperable
 */
@@ -74,19 +88,8 @@
  @Notes
 */
 - (id<CAMetalDrawable>)nextDrawable {
-	// TODO initialize DXGI Swap Chain if not yet
-	if (!initialized)
-	{
-		[self initialize];
-	}
-
     UNIMPLEMENTED();
     return StubReturn();
-}
-
-- (bool)initialize {
-
-	return NO;
 }
 
 - (void)dealloc {

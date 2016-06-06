@@ -26,11 +26,11 @@
 CA_EXPORT_CLASS
 @interface CAMetalLayer : CALayer <CAMediaTiming, NSCoding>
 
-@property (retain) id<MTLDevice> device STUB_PROPERTY;
-@property MTLPixelFormat pixelFormat STUB_PROPERTY;
-@property BOOL framebufferOnly STUB_PROPERTY;
-@property CGSize drawableSize STUB_PROPERTY;
+@property (retain) id<MTLDevice> device /*STUB_PROPERTY*/;
+@property MTLPixelFormat pixelFormat /*STUB_PROPERTY*/;
+@property BOOL framebufferOnly /*STUB_PROPERTY*/;
+@property CGSize drawableSize /*STUB_PROPERTY*/;
 - (id<CAMetalDrawable>)nextDrawable /*STUB_METHOD*/;
-@property BOOL presentsWithTransaction STUB_PROPERTY;
+@property BOOL presentsWithTransaction /*STUB_PROPERTY*/;
 
 @end
